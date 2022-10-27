@@ -1,0 +1,52 @@
+.carrito{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.carrito img{
+    width: 80px ;
+    height: 80px;
+}
+
+.carrito tr td, .carrito th{
+    border: solid 1px #5f5fc9;
+    text-align: center;
+    margin: 5%;
+}
+.carrito tr td div{
+    display: flex;
+    justify-content: center;
+}
+
+.carrito tr td div button{
+    width: 25px;
+    height: 25px;
+
+}
+.carrito tr td div p {
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border: solid 1px #5f5fc9;
+
+}
+.basurero {
+    border: none;
+    background-color: transparent;
+}
+.basurero img{
+    width: 50px;
+    height: 50px;
+}
+
+.formCompra {
+    display: flex;
+    justify-content: space-around;
+}
+.formCompra button{
+    margin-top: 50px;
+    
+    width: 150px ;
+    height: 50px ;
+    border-radius: 15px;
+}

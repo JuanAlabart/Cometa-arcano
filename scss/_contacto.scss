@@ -1,0 +1,52 @@
+/* ____Contacto_____ */
+  
+.contact{
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.contact section{
+    width: 50%;
+    padding: 0% 5%;
+}
+.contact form{
+    width: 100%;
+    padding: 0% 5%;
+}
+.contact form div{
+   margin: 2% 0%;
+}
+.contact form div div{
+    margin: 0%;
+ }
+ .contact form label{
+    font-size: 18px;
+}
+.contact input{
+    width: 80%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-color: #5f5fc9;
+}
+.textarea{
+    width: 80%;
+    height: 100px !important;
+}
+
+.contact section p{
+    margin-top: 5%;
+    padding: 0% 10%;
+}
+.botones{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+.contact button{
+    width: 100px;
+    height: 40px;
+    margin-top: 2%;
+    border-radius: 5px;
+    border-color: #5f5fc9;
+}

@@ -1,0 +1,152 @@
+@import "index";
+@import "footer";
+@import "piedras";
+@import "shop";
+@import "contacto";
+@import "carrito";
+/* Reset */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration-line: none;
+  }
+  
+  ol, ul {
+    list-style: none;
+  } 
+  .flex{
+    display: flex;
+  }
+  /* ____________________________________________ */
+  
+  
+  
+  /* HEADER */
+  
+  header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin-bottom: 20%;
+    z-index: 1000000000000000;
+
+  }
+  
+  header a{
+    text-decoration: none;
+
+  }
+  
+  
+  ul{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  a{
+    font-family: 'Nunito', sans-serif;
+    color: black;
+  }
+  
+  .navItem{
+    border-top-style: double;
+    border-bottom-style: double;
+    font-family: 'Nunito', sans-serif;
+    color: burlywood;
+  }
+  
+  .navItem :hover{
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  /* .titulo{
+    
+  } */
+  
+  .navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-toggler{
+    border: 1px solid black;
+  }
+
+  .navbar-nav li {
+    margin-right: 25px;
+  }
+  
+  .navbar-nav li a{
+    color: black;
+    font-size: 15px;
+    border-right: black 2px solid;
+  }
+  
+  .navbar-nav li a:hover{
+    color: grey;
+    border-right: grey 2px solid;
+  }
+  
+  .menuNav{
+    font-size: 1.3rem
+    
+  }
+  
+/* Logo */
+
+  .divLogo{
+    padding: 0%;
+    width: 100%;
+  }
+  header h1{
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    overflow: hidden;
+    font-weight: 600;
+  }
+  .navbar img{
+    width: 30px;
+    margin: 0% 35%; 
+  }
+  
+  /* _______________________________________________ */
+  
+  
+  /* Body */
+  
+  
+
+  
+ 
+ 
+  
+  
+
+  /* ________________________PIEDRAS__________________________ */
+  
+  .imagenesP{
+    width: 15rem;
+    height: 15rem;
+  }
+  
+  
+  
+  /* _____Piedras y Signos_____ */
+  
+
+  
+  

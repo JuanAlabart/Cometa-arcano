@@ -1,0 +1,74 @@
+/* ________________________SHOP__________________________ */
+  
+  
+  
+  .caja{
+    margin-top: 10% !important;   
+  }
+  .caja h4{
+    font-size: 40px; 
+    text-align: center; 
+    margin-bottom: 2% ;   
+
+  }
+  .caja section {
+    margin-bottom: 5%;   
+
+  }
+  .caja section div{
+    border: 3px solid #5f5fc9;
+    height: 100%;
+    padding: 5%;
+    border-radius: 15px;
+  }
+  .caja img{
+    width: 200px;
+    height: 200px;
+    margin: 0% 25%;
+    padding: 5%;
+    border-color: black;
+  }
+  .caja p{
+    font-size: 15px; 
+  }
+  .caja section div div{
+    border: none;
+    height: auto;
+    text-align: center;
+  }
+  .caja section h3{
+    font-size: 21px;    
+   }
+  .caja button{
+    margin: 0% 33%;
+    border-radius: 15px;
+    height: 40px;
+    width: 35%;
+  }
+
+.sumarRestar {
+  display: flex;
+  padding: 0% !important;
+  justify-content: center;
+}
+.sumarRestar button{
+    width: 40px;
+    height: 40px;
+    margin: 0% !important;
+    border-radius: 0%;
+
+}
+.sumarRestar p{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border: solid 1px #5f5fc9;
+    margin: 0% 2% 5% 2%;
+}
+.caja button:hover{
+  background-color: #5f5fc9;
+  color: white;
+}
+  
+
+  
