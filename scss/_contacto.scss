@@ -2,12 +2,13 @@
   
 .contact{
     display: flex;
-    margin-top: 10%;
+    margin-top: 0%;
     margin-bottom: 5%;
 }
 .contact section{
     width: 50%;
     padding: 0% 5%;
+    margin-top: 10%;
 }
 .contact form{
     width: 100%;
@@ -50,3 +51,36 @@
     border-radius: 5px;
     border-color: #5f5fc9;
 }
+.contact button:hover{
+    background-color: #5f5fc9;
+    color: white;
+  }
+.wpp{
+    display: flex;
+    justify-items: center;
+    margin-left: 10%;
+}
+
+.wpp img{
+    width: 40px;
+    height: 40px;
+    margin: 0% 1%;
+}
+
+.wpp p{
+    padding: 0% !important;
+    margin-top: 5px !important;
+
+}
+
+@media only screen and (max-width:720px)
+{
+    .contact{
+        display: block;
+        margin-top: 30%;
+    }
+    .contact section{
+        width: 100%;
+    }
+   
+}   

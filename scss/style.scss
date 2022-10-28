@@ -4,6 +4,9 @@
 @import "shop";
 @import "contacto";
 @import "carrito";
+@import "navbar";
+@import "animaciones";
+
 /* Reset */
 
 
@@ -75,35 +78,6 @@
     
   } */
   
-  .navbar{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .navbar-toggler{
-    border: 1px solid black;
-  }
-
-  .navbar-nav li {
-    margin-right: 25px;
-  }
-  
-  .navbar-nav li a{
-    color: black;
-    font-size: 15px;
-    border-right: black 2px solid;
-  }
-  
-  .navbar-nav li a:hover{
-    color: grey;
-    border-right: grey 2px solid;
-  }
-  
-  .menuNav{
-    font-size: 1.3rem
-    
-  }
   
 /* Logo */
 

@@ -1,0 +1,28 @@
+footer img:hover{
+   
+    animation-name: animacion;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0ms;
+}
+@keyframes animacion {
+    33%{transform:rotate(15deg)}
+    66%{transform:rotate(-15deg)}
+
+}
+
+
+.caja img:hover{
+   
+    animation-duration: 1s;
+    animation-name: agrandar;
+    animation-fill-mode: forwards;
+    animation-direction:alternate ;
+}
+@keyframes agrandar {
+    
+    100%{
+        transform: scale(1.1);
+    }
+}

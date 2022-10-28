@@ -19,15 +19,30 @@
   text-align: center;
   margin-top: 2%; }
 
+.pag1 p {
+  padding: 0% 10%; }
+
 .flex div {
   width: 50%;
   padding: 2% 5%;
   text-align: center; }
 
 .flex div img {
-  width: 100%;
+  width: 70%;
   margin: 2%;
   border-radius: 15px; }
+
+@media only screen and (max-width: 720px) {
+  .flex {
+    display: block !important; }
+  .flex div {
+    width: 100%;
+    padding: 2% 5%;
+    text-align: center; }
+  .flex div img {
+    width: 50%; }
+  .carousel img {
+    height: 300px; } }
 
 /* _____________________________________________ */
 /* FOOTER  */
@@ -58,6 +73,11 @@ footer img {
 .copyright {
   font-size: 16px; }
 
+@media only screen and (max-width: 720px) {
+  footer img {
+    width: 2rem;
+    height: 2rem; } }
+
 .signos {
   margin-top: 8%;
   text-align: center;
@@ -72,7 +92,8 @@ footer img {
 .signos div section div {
   margin: 2%;
   border: 3px solid #5f5fc9;
-  border-radius: 25px; }
+  border-radius: 25px;
+  height: 150px; }
 
 .signos div section div h3 {
   color: #5f5fc9;
@@ -80,6 +101,10 @@ footer img {
 
 .signos div section div p {
   padding: 5%; }
+
+@media only screen and (max-width: 720px) {
+  .signos {
+    margin-top: 30%; } }
 
 /* ________________________SHOP__________________________ */
 .caja {
@@ -102,7 +127,7 @@ footer img {
 .caja img {
   width: 200px;
   height: 200px;
-  margin: 0% 25%;
+  margin: 0% 5%;
   padding: 5%;
   border-color: black; }
 
@@ -115,13 +140,13 @@ footer img {
   text-align: center; }
 
 .caja section h3 {
-  font-size: 21px; }
+  font-size: 16px; }
 
 .caja button {
-  margin: 0% 33%;
-  border-radius: 15px;
-  height: 40px;
-  width: 35%; }
+  margin: 0% 25%;
+  border-radius: 10px;
+  height: 35px;
+  width: 50%; }
 
 .sumarRestar {
   display: flex;
@@ -129,31 +154,38 @@ footer img {
   justify-content: center; }
 
 .sumarRestar button {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   margin: 0% !important;
-  border-radius: 0%; }
+  border-radius: 5px; }
 
 .sumarRestar p {
   text-align: center;
-  width: 40px;
-  height: 40px;
-  border: solid 1px #5f5fc9;
-  margin: 0% 2% 5% 2%; }
+  width: 35px;
+  height: 35px;
+  border: solid 3px #5f5fc9;
+  margin: 0% 2% 4% 2%; }
 
 .caja button:hover {
   background-color: #5f5fc9;
   color: white; }
 
+@media only screen and (max-width: 720px) {
+  .caja {
+    margin-top: 30% !important; }
+  .caja img {
+    margin: 0% 25%; } }
+
 /* ____Contacto_____ */
 .contact {
   display: flex;
-  margin-top: 10%;
+  margin-top: 0%;
   margin-bottom: 5%; }
 
 .contact section {
   width: 50%;
-  padding: 0% 5%; }
+  padding: 0% 5%;
+  margin-top: 10%; }
 
 .contact form {
   width: 100%;
@@ -195,6 +227,31 @@ footer img {
   border-radius: 5px;
   border-color: #5f5fc9; }
 
+.contact button:hover {
+  background-color: #5f5fc9;
+  color: white; }
+
+.wpp {
+  display: flex;
+  justify-items: center;
+  margin-left: 10%; }
+
+.wpp img {
+  width: 40px;
+  height: 40px;
+  margin: 0% 1%; }
+
+.wpp p {
+  padding: 0% !important;
+  margin-top: 5px !important; }
+
+@media only screen and (max-width: 720px) {
+  .contact {
+    display: block;
+    margin-top: 30%; }
+  .contact section {
+    width: 100%; } }
+
 .carrito {
   margin-top: 10%;
   margin-bottom: 10%; }
@@ -202,6 +259,11 @@ footer img {
 .carrito img {
   width: 80px;
   height: 80px; }
+
+.carrito h5 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 5%; }
 
 .carrito tr td, .carrito th {
   border: solid 1px #5f5fc9;
@@ -239,6 +301,91 @@ footer img {
   width: 150px;
   height: 50px;
   border-radius: 15px; }
+
+.formCompra button:hover {
+  background-color: #5f5fc9;
+  color: white; }
+
+@media only screen and (max-width: 720px) {
+  .carrito {
+    margin-top: 30%; }
+  .basurero img {
+    width: 40px;
+    height: 40px;
+    padding: 15%; }
+  .carrito img {
+    width: 50px;
+    height: 50px; }
+  .carrito td {
+    font-size: 12px !important; }
+  .carrito tr td div {
+    padding: 5%; }
+  .formCompra button {
+    width: 120px;
+    height: 40px;
+    font-size: 13px; } }
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../img/cabeza.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.navbar-toggler {
+  border: 1px solid black; }
+
+.navbar-nav li {
+  margin-right: 25px; }
+
+.navbar-nav li a {
+  color: black;
+  font-size: 15px;
+  border-right: black 2px solid; }
+
+.navbar-nav li a:hover {
+  color: grey;
+  border-right: grey 2px solid; }
+
+.menuNav {
+  font-size: 1.3rem; }
+
+.active {
+  color: #5f5fc9 !important;
+  border-right: #5f5fc9 2px solid !important; }
+
+@media only screen and (max-width: 720px) {
+  .navbar-toggler {
+    border: 2px solid black !important;
+    border-radius: 5px !important; }
+  .navbar-toggler-icon img {
+    margin: 0% !important; }
+  .nav-link {
+    padding-right: 15px !important; } }
+
+footer img:hover {
+  animation-name: animacion;
+  animation-iteration-count: infinite;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+  animation-delay: 0ms; }
+
+@keyframes animacion {
+  33% {
+    transform: rotate(15deg); }
+  66% {
+    transform: rotate(-15deg); } }
+
+.caja img:hover {
+  animation-duration: 1s;
+  animation-name: agrandar;
+  animation-fill-mode: forwards;
+  animation-direction: alternate; }
+
+@keyframes agrandar {
+  100% {
+    transform: scale(1.1); } }
 
 /* Reset */
 * {
@@ -292,29 +439,6 @@ a {
 /* .titulo{
     
   } */
-.navbar {
-  width: 100%;
-  display: flex;
-  justify-content: space-between; }
-
-.navbar-toggler {
-  border: 1px solid black; }
-
-.navbar-nav li {
-  margin-right: 25px; }
-
-.navbar-nav li a {
-  color: black;
-  font-size: 15px;
-  border-right: black 2px solid; }
-
-.navbar-nav li a:hover {
-  color: grey;
-  border-right: grey 2px solid; }
-
-.menuNav {
-  font-size: 1.3rem; }
-
 /* Logo */
 .divLogo {
   padding: 0%;

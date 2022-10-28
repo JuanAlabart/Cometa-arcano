@@ -1,0 +1,53 @@
+
+  .navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../img/cabeza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .navbar-toggler{
+    border: 1px solid black;
+  }
+
+  .navbar-nav li {
+    margin-right: 25px;
+  }
+  
+  .navbar-nav li a{
+    color: black;
+    font-size: 15px;
+    border-right: black 2px solid;
+  }
+  
+  .navbar-nav li a:hover{
+    color: grey;
+    border-right: grey 2px solid;
+  }
+  
+  .menuNav{
+    font-size: 1.3rem
+    
+  }
+  .active{
+    color: #5f5fc9 !important ;
+    border-right: #5f5fc9 2px solid !important;
+  }
+  
+
+    @media only screen and (max-width:720px)
+    {
+        .navbar-toggler{
+            border: 2px solid black !important;
+            border-radius: 5px !important;
+        }
+        .navbar-toggler-icon img{
+            margin: 0% !important;
+        }
+        .nav-link{
+          padding-right: 15px !important;
+        }
+
+    }   

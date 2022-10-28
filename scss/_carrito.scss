@@ -7,7 +7,11 @@
     width: 80px ;
     height: 80px;
 }
-
+.carrito h5{
+    text-align:center ;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
 .carrito tr td, .carrito th{
     border: solid 1px #5f5fc9;
     text-align: center;
@@ -50,3 +54,36 @@
     height: 50px ;
     border-radius: 15px;
 }
+.formCompra button:hover{
+   background-color: #5f5fc9;
+   color: white;
+}
+
+@media only screen and (max-width:720px)
+{
+    .carrito{
+        margin-top: 30%;
+        
+    }
+    .basurero img{
+        width: 40px;
+        height: 40px;
+        padding: 15%;
+    }
+    .carrito img{
+        width: 50px ;
+        height: 50px;
+    }
+    .carrito td {
+        font-size: 12px !important;
+    }
+    .carrito tr td div{
+        padding: 5%;
+    }
+    .formCompra button{
+        width: 120px ;
+        height: 40px ;
+        font-size: 13px;
+    }
+    
+}   

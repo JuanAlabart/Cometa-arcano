@@ -36,3 +36,12 @@
   .copyright {
     font-size: 16px;
   }
+
+  @media only screen and (max-width:720px)
+  {
+     
+    footer img {
+      width: 2rem;
+      height: 2rem;
+    }
+  }   
